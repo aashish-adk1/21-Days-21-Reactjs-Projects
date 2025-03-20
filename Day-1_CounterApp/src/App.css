@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  color: rgb(239, 217, 217);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;
+  background-color: rgb(156, 71, 235);
+}
+
+.btns{
+  display: flex;
+  gap: 20px;
+}
+
+.btns button{
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+color: rgb(110, 110, 110);
+
+}
+
+.btns button:hover{
+  background-color: rgb(76, 24, 125);
+  color: white;
+}
