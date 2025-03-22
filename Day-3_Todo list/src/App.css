@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.input {
+  border: none;
+  padding: 5px 10px;
+  color: gray;
+}
+
+.btn {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+.addlist{
+  display: flex;
+  gap: 20px;
+}
+
+.btn:hover{
+  background-color: rgb(3, 119, 177);
+  color:rgb(41, 41, 41);
+}
+
+.lists{
+  display: flex;
+  gap: 20px;
+}
