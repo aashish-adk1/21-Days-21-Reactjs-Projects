@@ -7,11 +7,16 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: cadetblue;
+  background-color: rgb(176, 180, 180);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  
+}
+.top{
+  display: flex;
   gap: 20px;
 
 }
@@ -22,21 +27,20 @@
   color: gray;
 }
 
-.btn {
+.add-btn {
   border: none;
   padding: 5px 10px;
   cursor: pointer;
+  background-color: rgb(3, 198, 3);
+  color: rgb(60, 60, 60);
 
 }
-.addlist{
+.todos{
   display: flex;
   gap: 20px;
 }
 
-.btn:hover{
-  background-color: rgb(3, 119, 177);
-  color:rgb(41, 41, 41);
-}
+
 
 .lists{
   display: flex;
